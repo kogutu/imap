@@ -1,0 +1,19 @@
+{
+	"electron" : {
+		"killMeteorOnExit": true,
+		"packageApp": false,
+		"runOnStartup": true,
+		"appName": "myApp",
+		"platform": "win32",
+		"arch": "ia32",
+		"out": "",
+		"icon": "",
+		"app-bundle-id": "",
+		"app-version": "",
+		"helper-bundle-id": "",
+		"ignore": "",
+		"prune": "",
+		"asar": "",
+		"version": "0.25.3"
+	}
+}

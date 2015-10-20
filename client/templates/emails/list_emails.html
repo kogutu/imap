@@ -1,0 +1,22 @@
+<template name="list_emails">
+<div class="tab-pane fade in active" id="home">
+    <div class="list-group">
+        {{#each result}}
+
+
+        <a href="#" class="list-group-item">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox">
+                </label>
+            </div>
+            <span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
+                                display: inline-block;">  <b>{{from.[0].name}} <small>{{from.[0].address}}</small> </b></span> <div class="break"></div> <span class="">{{subject}}</span>
+        <span class="badge">{{from_now}}</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
+                                </span></span></a>
+        {{/each}}
+
+
+    </div>
+</div>
+</template>
